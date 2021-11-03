@@ -169,25 +169,13 @@ section .knowUs .service .serviceText button {
   color: black;
   margin-top: 40px;
 }
-section .contactContainer {
-  display: flex;
-  padding: 2em;
-  text-align: center;
+section .contactIcons {
+  padding: 20px;
 }
-section .contactContainer .contactForm {
-  width: 50%;
-  background: red;
-  margin-left: auto;
-  margin-right: auto;
-}
-section .contactContainer .contactForm h2 {
-  font-size: 30px;
-}
-section .contactContainer .contactForm form input {
-  display: block;
-  padding: 10px;
-  margin: 10px;
-  width: 50%;
+section .contactIcons a {
+  font-size: 20px;
+  color: gray;
+  margin-left: 20px;
 }
 
 @media (max-width: 751px) {
@@ -196,7 +184,7 @@ section .contactContainer .contactForm form input {
   }
   section header nav .bar {
     display: block;
-    font-size: 25px;
+    font-size: 30px;
   }
   section .showcase .showcaseText h1 {
     font-size: 50px;
@@ -204,5 +192,11 @@ section .contactContainer .contactForm form input {
   section .showcase .showcaseBtn button.contact {
     margin-top: 20px;
     margin-right: 30px;
+  }
+  section .knowUs .about {
+    display: block;
+  }
+  section .knowUs .service {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
